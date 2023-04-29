@@ -8,8 +8,9 @@ public class StatsService {
       /*  for(int i=0; i< arr.length; i++)
             sum= sum +arr[i];
         return sum;*/
-        for (int s : arr)
+        for (int s : arr) {
             sum = sum + s;
+        }
         return sum;
     }
 
